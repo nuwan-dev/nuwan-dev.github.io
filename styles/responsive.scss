@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+// fonts
+$roboto: 'Roboto', sans-serif;
+$montserrat: 'Montserrat', sans-serif;
+
+// colors
+$gold: #DCA63D;
+$light-blue: #409EC8;
+$red-pink: #FF0053;
+$pink: #FF53BA;
+$grey-black: #1E1E1E;
+$grey: #9B9B9B;
+$grey-2: #979797;
+$blue: #0071E3;
+$white: #ffffff;
+$light-grey: #D9D9D9;
+$ligh-grey-2: #7E7E7E;
+$drak-grey: #424245;
+$black: #000000;
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+// 450 > screen | Mobile
+@media screen and (max-width: 450px) {
+
+    // footer container
+    .nuone-footer-container {
+        .footer {
+            >span {
+                margin: auto;
+            }
+        }
+    }
+}
+
+// 740 > screen | Mobile
+@media screen and (max-width: 740px) {
+
+    // top nav bar container
+    .nuone-top-nav-container {
+        display: none;
+
+        .top-nav {
+            padding: 22px 5%;
+            transition: 0.2s ease-in-out all;
+
+            .top-nav-links {
+                padding: 0px;
+                transition: 0.2s ease-in-out all;
+            }
+        }
+    }
+
+    // mobile nav bar container
+    .nuone-mobile-top-bar {
+        display: block;
+        width: 100%;
+        position: fixed;
+        z-index: 999;
+        height: 55px;
+
+        .mb-top-nav {
+            padding: 10px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .mb-top-nav-logo {
+                font-family: $montserrat;
+                font-size: 29px;
+                font-weight: 700;
+                color: $white;
+                cursor: poniter;
+                text-decoration: none;
+            }
+
+            .mb-menu-btn {
+                width: 29px;
+                height: auto;
+                cursor: pointer;
+            }
+        }
+    }
+
+    // hero container
+    .nuone-hero-container {
+        .hero-overlay {
+            .hero {
+                padding-top: 250px;
+
+                .hero-sub {
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    padding-top: 75px;
+
+                    .hero-sub-2 {
+                        margin-top: 25px;
+                        justify-content: flex-start;
+                    }
+                }
+            }
+        }
+    }
+
+    // work experience container
+    .nuone-portfolio-container {
+        .portfolio {
+            flex-wrap: wrap;
+            padding-right: 5%;
+            padding-left: 5%;
+
+            .porfolio-image {
+                width: 100%;
+            }
+
+            .portfolio-details {
+                margin-top: 50px;
+            }
+        }
+    }
+
+    .nuone-work-exp-container {
+        .work-exp {
+            flex-wrap: wrap;
+            padding-right: 5%;
+            padding-left: 5%;
+            padding-top: 50px;
+
+            .exp-img {
+                width: 100%;
+            }
+        }
+    }
+
+    // technologies container
+    .nuone-tech-container {
+        .techs {
+            .tech {
+                margin-right: 10px !important;
+                margin-left: 10px !important;
+            }
+        }
+    }
+}
+
+// 800 > screen | Tablet
+@media screen and (max-width: 800px) {
+
+    // portfolio container
+    .nuone-portfolio-container {
+        .portfolio {
+            flex-wrap: wrap;
+
+            .porfolio-image {
+                margin: auto;
+            }
+
+            .portfolio-details {
+                margin-top: 50px;
+            }
+        }
+    }
+}
+
+// 1220 > screen | Dekstop
+@media screen and (max-width: 1220px) {
+
+    // top nav bar container
+    .nuone-top-nav-container {
+        .top-nav {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    }
+
+    // hero container
+    .nuone-hero-container {
+        .hero-overlay {
+            .hero {
+                padding-right: 5%;
+                padding-left: 5%;
+            }
+        }
+    }
+
+    // portfolio container
+    .nuone-portfolio-container {
+        .portfolio {
+            padding-right: 5%;
+            padding-left: 5%;
+            column-gap: 0;
+
+            .portfolio-details {
+                .pd-btns {
+                    flex-wrap: wrap;
+                    row-gap: 15px;
+
+                    .pd-learn-btn {
+                        padding: 7px 17px;
+                    }
+                }
+            }
+        }
+    }
+
+    // work experience container 
+    .nuone-work-exp-container {
+        .work-exp {
+            padding-right: 5%;
+            padding-left: 5%;
+        }
+    }
+
+    // technologies container
+    .nuone-tech-container {
+        .techs {
+            .tech {
+                margin-right: 10px !important;
+                margin-left: 10px !important;
+            }
+        }
+    }
+
+    // projects container
+    .nuone-projects-container {
+        .projects {
+            .project {
+                margin-right: 10px !important;
+                margin-left: 10px !important;
+            }
+        }
+    }
+
+    // dark container
+    .nuone-dark-container {
+        .dark {
+            .icon {
+                margin-right: 10px !important;
+                margin-left: 10px !important;
+            }
+        }
+    }
+
+}

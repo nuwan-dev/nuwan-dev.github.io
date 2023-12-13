@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 450px) {
+  .nuone-footer-container .footer > span {
+    margin: auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  .nuone-top-nav-container {
+    display: none;
+  }
+  .nuone-top-nav-container .top-nav {
+    padding: 22px 5%;
+    transition: 0.2s ease-in-out all;
+  }
+  .nuone-top-nav-container .top-nav .top-nav-links {
+    padding: 0px;
+    transition: 0.2s ease-in-out all;
+  }
+  .nuone-mobile-top-bar {
+    display: block;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    height: 55px;
+  }
+  .nuone-mobile-top-bar .mb-top-nav {
+    padding: 10px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nuone-mobile-top-bar .mb-top-nav .mb-top-nav-logo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 29px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: poniter;
+    text-decoration: none;
+  }
+  .nuone-mobile-top-bar .mb-top-nav .mb-menu-btn {
+    width: 29px;
+    height: auto;
+    cursor: pointer;
+  }
+  .nuone-hero-container .hero-overlay .hero {
+    padding-top: 250px;
+  }
+  .nuone-hero-container .hero-overlay .hero .hero-sub {
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 75px;
+  }
+  .nuone-hero-container .hero-overlay .hero .hero-sub .hero-sub-2 {
+    margin-top: 25px;
+    justify-content: flex-start;
+  }
+  .nuone-portfolio-container .portfolio {
+    flex-wrap: wrap;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .nuone-portfolio-container .portfolio .porfolio-image {
+    width: 100%;
+  }
+  .nuone-portfolio-container .portfolio .portfolio-details {
+    margin-top: 50px;
+  }
+  .nuone-work-exp-container .work-exp {
+    flex-wrap: wrap;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top: 50px;
+  }
+  .nuone-work-exp-container .work-exp .exp-img {
+    width: 100%;
+  }
+  .nuone-tech-container .techs .tech {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  .nuone-portfolio-container .portfolio {
+    flex-wrap: wrap;
+  }
+  .nuone-portfolio-container .portfolio .porfolio-image {
+    margin: auto;
+  }
+  .nuone-portfolio-container .portfolio .portfolio-details {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 1220px) {
+  .nuone-top-nav-container .top-nav {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  .nuone-hero-container .hero-overlay .hero {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .nuone-portfolio-container .portfolio {
+    padding-right: 5%;
+    padding-left: 5%;
+    column-gap: 0;
+  }
+  .nuone-portfolio-container .portfolio .portfolio-details .pd-btns {
+    flex-wrap: wrap;
+    row-gap: 15px;
+  }
+  .nuone-portfolio-container .portfolio .portfolio-details .pd-btns .pd-learn-btn {
+    padding: 7px 17px;
+  }
+  .nuone-work-exp-container .work-exp {
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .nuone-tech-container .techs .tech {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  .nuone-projects-container .projects .project {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  .nuone-dark-container .dark .icon {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
