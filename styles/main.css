@@ -567,9 +567,10 @@ html {
   line-height: normal;
   margin-top: 18px;
 }
-.nuone-touch-container .touch p span {
+.nuone-touch-container .touch p span, .nuone-touch-container .touch p a {
   color: #000;
   font-weight: 700;
+  text-decoration: none;
 }
 .nuone-touch-container .touch button {
   color: #FFF;
@@ -658,6 +659,7 @@ html {
   justify-content: center;
   backdrop-filter: blur(5px);
   padding: 20px;
+  z-index: 999;
 }
 .nuone-dev-note .dev-note h3 {
   color: #fff;
