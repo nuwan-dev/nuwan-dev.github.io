@@ -1,3 +1,4 @@
+@import 'variables';
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
@@ -790,4 +791,35 @@ html {
     right: 20px !important;
 }
 
-// 
+// dev note
+.nuone-dev-note {
+    // max-width: 80%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    border: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+
+    .dev-note {
+        h3 {
+            color: #fff;
+            font-family: $poppins;
+            font-size: 16px;
+            font-weight: normal;
+
+            .dev-note-sp {
+                font-weight: bold;
+                text-decoration: none;
+                color: #fff;
+                text-transform: uppercase;
+                font-size: 20px;
+            }
+        }
+    }
+}
