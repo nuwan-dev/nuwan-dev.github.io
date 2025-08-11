@@ -42,7 +42,7 @@ $(".techs").slick({
   slidesToScroll: 1,
   autoplay: true,
   autoplaySpeed: 2000,
-  dots: true,
+  dots: false,
   responsive: [
     {
       breakpoint: 1024,
