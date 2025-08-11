@@ -526,6 +526,7 @@ html {
                     font-style: normal;
                     font-weight: 700;
                     line-height: normal;
+                    margin-bottom: 10px;
                 }
 
                 p {
@@ -535,6 +536,18 @@ html {
                     font-style: normal;
                     font-weight: 400;
                     line-height: normal;
+                }
+
+                a {
+                    background-color: $blue;
+                    color: $white;
+                    border: none;
+                    padding: 7px 17px;
+                    border-radius: 50px;
+                    text-decoration: none;
+                    font-size: 14px;
+                    font-family: $roboto;
+                    font-weight: 400;
                 }
             }
         }
@@ -556,7 +569,11 @@ html {
         }
 
         .project-4 {
-            background-image: url('/assets/images/project-2.png');
+            background-image: url('/assets/images/ned-site.webp');
+        }
+
+        .project-5 {
+            background-image: url('/assets/images/bluelanka-site.webp');
         }
     }
 }
@@ -695,7 +712,8 @@ html {
             line-height: normal;
             margin-top: 18px;
 
-            span, a {
+            span,
+            a {
                 color: #000;
                 font-weight: 700;
                 text-decoration: none;

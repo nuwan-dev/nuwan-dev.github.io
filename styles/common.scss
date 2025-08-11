@@ -1,0 +1,18 @@
+@import "variables";
+
+.pd-cv-btn {
+    background-color: $blue;
+    color: $white;
+    border: none;
+    padding: 7px 17px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: $roboto;
+    font-weight: 400;
+}
+
+.read-btn {
+    // display: inline-block;
+    margin-top: 20px;
+}
