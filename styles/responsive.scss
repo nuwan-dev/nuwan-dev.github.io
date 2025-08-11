@@ -34,7 +34,7 @@ html {
 }
 
 // 450 > screen | Mobile
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 
     // footer container
     .nuone-footer-container {
@@ -52,6 +52,17 @@ html {
         h3 {
             .dev-note-sp {
                 font-size: 18px !important;
+            }
+        }
+    }
+
+    // contact container
+    .nuone-touch-container {
+        .touch {
+            p {
+                a {
+                    word-break: break-word;
+                }
             }
         }
     }

@@ -15,7 +15,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
   .nuone-footer-container .footer > span {
     margin: auto;
   }
@@ -24,6 +24,9 @@ html {
   }
   .nuone-dev-note h3 .dev-note-sp {
     font-size: 18px !important;
+  }
+  .nuone-touch-container .touch p a {
+    word-break: break-word;
   }
 }
 @media screen and (max-width: 740px) {
