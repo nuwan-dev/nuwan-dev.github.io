@@ -402,6 +402,10 @@ html {
             background: #FFF;
             box-shadow: 1.902px 3.804px 11.411px 0px rgba(0, 0, 0, 0.08);
             min-height: 225px;
+            display: flex;
+            flex-direction: column; 
+            align-items: flex-start;
+            justify-content: space-between;
 
             h2 {
                 color: #409EC8;
